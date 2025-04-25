@@ -546,8 +546,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ea6fabad1aa5cf4bafcef7b0a2e33fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movSpeed: 10
-  switchTime: 2
+  movSpeed: 9
+  switchTime: 3
 --- !u!1 &137311265 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100018, guid: b306b78cfbe86184f9ad69b37249355d,
@@ -3135,7 +3135,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 2891b480d026a834db656227dac796df, type: 3}
   m_Resource: {fileID: 8300000, guid: 2891b480d026a834db656227dac796df, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.765
+  m_Volume: 0.268
   m_Pitch: 1.07
   Loop: 1
   Mute: 0
@@ -3143,8 +3143,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 2.73
-  MinDistance: 5
-  MaxDistance: 10
+  MinDistance: 3
+  MaxDistance: 6
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -3455,7 +3455,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4e91fb8c316c7914085a678d99746697, type: 2}
+      objectReference: {fileID: 2100000, guid: afb9013263732024fb75caaa0e4a1e38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9420,10 +9420,10 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 65
-  DopplerLevel: 1.26
-  MinDistance: 5
-  MaxDistance: 10
+  Priority: 23
+  DopplerLevel: 1.55
+  MinDistance: 3
+  MaxDistance: 6
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -9585,7 +9585,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8445009445be53d479c8f8ec6587eb8d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.44
+      value: -10.23
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8445009445be53d479c8f8ec6587eb8d,
         type: 3}
@@ -12622,7 +12622,7 @@ PrefabInstance:
     - target: {fileID: 2300014, guid: 6df1436e87916934b929afd3ac0f00ab, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 4e91fb8c316c7914085a678d99746697, type: 2}
+      objectReference: {fileID: 2100000, guid: afb9013263732024fb75caaa0e4a1e38, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12956,14 +12956,14 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: f3def460b96abf440bbc45fa66d44c55, type: 3}
   m_Resource: {fileID: 8300000, guid: f3def460b96abf440bbc45fa66d44c55, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.006
   m_Pitch: 2
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
+  Priority: 184
+  DopplerLevel: 0.97
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
